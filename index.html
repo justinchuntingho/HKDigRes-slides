@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>The Rise of Hong Kong Nationalism on the Edge of Empires</title>
+		<title>Facebooking Nationalism: The Construction of Hong Kong nationalism on Facebook</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/night.css">
@@ -27,7 +27,7 @@
                 <section data-background="bg1.jpg">
 
                 <p>
-  			    <h3 style = "background-color:rgba(0,0,0,0.7);">The Rise of Hong Kong Nationalism on the Edge of Empires</h3>
+  			    <h3 style = "background-color:rgba(0,0,0,0.7);">Facebooking Nationalism: The Construction of Hong Kong nationalism on Facebook</h3>
                 <br>
                 <h4 style = "background-color:rgba(0,0,0,0.7);">Justin Chun-ting Ho</h3>
                 <h4 style = "background-color:rgba(0,0,0,0.7);">University of Edinburgh</h3>
@@ -44,9 +44,6 @@
               </section>
               <section data-background="chinatookover.jpg">
                   <h3 style = "background-color:rgba(0,0,0,0.7);">The Chinese took over in 1997</h3>
-              </section>
-              <section>
-                  <img src="onecountrytwosystems.jpg" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
               </section>
               <section data-background="protest.jpg">
                   <h3 style = "background-color:rgba(0,0,0,0.7);">Things didn't work out well</h3>
@@ -67,16 +64,9 @@
               <section>
                 <h2>Why Facebook?</h2>
               </section>
-              <section data-background="facebook.gif">
-                  <h3 style = "background-color:rgba(0,0,0,0.7);">
-                <ul><li>Facebook as a major source of news in Hong Kong</li>
-                    <li>Self-censorship of the mainstream media</li>
-                    <li>Alternative Media</li></ul>
-                </h3>
-              </section>
               <section data-background="umbrella.jpg">
                   <h3 style = "background-color:rgba(0,0,0,0.7);">
-                <ul><li>A major platform of political communication</li>
+                <ul><li>An important platform of political communication</li>
                     <li>A major channel of mobilization during the Umbrella Movement</li>
                     <li>All nationalist groups use Facebook</li></ul>
                 </h3>
@@ -94,52 +84,98 @@
               <section data-background="corpus.png">
                   <div style = "background-color:rgba(0,0,0,0.7);">
                       <h3>Problem of CDA</h3>
-                <ul><li>Unsystematic manner of applying analytical procedures  (Koller & Mautner, 2004; McEnery & Wilson, 1996)</li>
+                <ul><li>Unsystematic manner of applying analytical procedures (Koller & Mautner, 2004; McEnery & Wilson, 1996)</li>
                     <li>Unable to deal with large corpus</li>
                     <li>Sampling could be problematic</li></ul>
                 </div>
               </section>
               <section>
-                  <h3>Network Analysis</h3>
-                  <p><ul><li>Co-occurrence network of words</li>
-                      <li>Vertices = Words, <br>Edges = Co-occurrence in the same document</li>
-                      <li>Community Detection (Blondel et al, 2008)</li></ul></p>
+                <h2>Preliminary Findings</h2>
               </section>
               <section>
-                <h2>Pilot Study</h2>
+                <h3>Text Analysis</h3>
+                    <p><ul><li>Facebook page of <i>Hong Kong Indigenous, Youngspiration<sup>*</sup>, Hong Kong National Party, Reforming Hong Kong, etc</i></li>
+                        <li>Collected with NetVizz, tokenised with Python, analysed with R</li>
+                        <li>8,783 posts, average of 70 characters per post, mostly Chinese but also English</li></ul></p>
+                        <small><sup>*</sup>Special thanks to Dr. Chung-hong Chan and Prof. King-wa Fu for sharing the data</small>
               </section>
               <section>
-                <h3>Pilot Analysis</h3>
-                    <p><ul><li>Facebook Page of Hong Kong Indigenous</li>
-                        <li>Collected with NetVizz, tokenised with Python, analysed with R, visualised with Gephi</li>
-                        <li>3300 posts, average of 145 characters per post, mostly Chinese but also English</li></ul></p>
+                <h3>Topic Modeling</h3>
               </section>
               <section>
-                  <img src="1100words.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  <section>
+                      <img src="perplexity.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
+                  <section>
+                      <img src="ldatuning.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
               </section>
               <section>
-                  <img src="71words.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  <img src="ldatuning.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
               </section>
               <section>
-                  <h3>A Mixed Method Approach</h3>
-                  <p><ul><li>Computational methods as supplement, not substitution</li>
-                      <li>Distant Reading and Close Reading</li>
-                      <li>As a sampling measure: a means to select the most useful texts for CDA</li></p>
+                  <img src="60topics_rel_label.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
               </section>
               <section>
-                <h2>Challenges</h2>
+                  <img src="topic_freq.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
               </section>
               <section>
-                <h3>1. A mixed method approach to social media data</h3>
+                  <img src="topic_prop.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
               </section>
               <section>
-                <h3>2. Cantonese</h3>
+                  <section>
+                      <img src="topic_cor_network.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
+                  <section>
+                      <img src="topic_network.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
               </section>
               <section>
-                <h3>3. Visual Content</h3>
+                <h2>Next Steps</h2>
               </section>
               <section>
-                <h4>Twitter: @zjustin334 <br>Github: justinchuntingho<br>Email: Jusitn.Ho@ed.ac.uk</h4>
+                <h3>1. Cantonese Tokenisation</h3>
+              </section>
+              <section>
+                <h3>兒子生性病母倍感安慰</h3>
+              </section>
+              <section>
+                  <section>
+                    <h3>兒子 / 生性病 / 母 / 倍感 / 安慰</h3>
+                  </section>
+                  <section>
+                    <h3>兒子 / 生性 / 病母 / 倍感 / 安慰</h3>
+                  </section>
+              </section>
+              <section>
+                <h3>What I have done:</h3>
+                <img src="tokeneq.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                <p><ul><li>Produced a list of 957 words, 818 words are valid</li>
+                    <li>Supply to Jieba</li></ul></p>
+              </section>
+              <section>
+                <h3>Raw Text</h3>
+                <code>今日下午三時半，高等法院就行政長官對梁頌恆、游蕙禎兩人的立法會議員資格提出司法覆核之案件頒發判詞，並判梁、游二人敗訴，亦即二人之議員資格被撤銷。</code>
+              </section>
+              <section>
+                <h3>Jieba</h3>
+                <code>今日 下午 三時 半 高等法院 就 <span class="highlight-red">行政 長 官</span> 對 <span class="highlight-red">梁頌 恆</span> 游蕙禎 兩人 的 立法 會 議員 資格 提出 司法 覆核 之 案件 頒發 判詞 並判 <span class="highlight-red">梁 游</span> 二人 敗訴 亦 即 二人 之 議員 資格 被 撤銷</code>
+              </section>
+              <section>
+                <h3>Jieba with Wordlist</h3>
+                <code>今日 下午 三時 高等法院 <span class="highlight-blue">行政長官 梁頌恆</span> 游蕙禎 立法會 議員 資格 提出 司法覆核 案件 頒發 判詞 並判 <span class="highlight-blue">梁游</span> 二人 敗訴 二人 議員 資格 撤銷</code>
+              </section>
+              <section>
+                <h3>Scaling Up:</h3>
+                <p>
+                    <ul><li>Cantonese Tokensier</li>
+                        <li>Scraped 1 millon posts from online forums (still counting)</li>
+                        <li>Expanding to Facebook comments</li>
+                        <li>Suggestions are welcome</li></ul></p>
+              </section>
+              <section>
+                  <h2>Thank You!</h2>
+                <h4>Twitter: @justin_ct_ho<br>Github: justinchuntingho<br>Email: Jusitn.Ho@ed.ac.uk</h4>
               </section>
 			</div>
 		</div>
